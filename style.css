@@ -1,0 +1,44 @@
+.bginfo{
+    background-color: orange;
+}
+.Image{
+    background-image: url("./images/WhatsApp\ Image\ 2025-01-28\ at\ 6.43.36\ PM.jpeg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-menu{
+    width: 450px;
+    height: 40px;
+    border-radius: 25px;
+    margin-left:15px;
+    margin-top: -90px;
+    text-align: center;
+    border: none;
+}
+
+.search-button{
+    width: 40px;
+    height: 40px;
+    border-radius: 25px;
+    margin-left: 15px;
+    margin-top: -90px;
+    background-color: orangered;
+    border: 2px solid white;
+}
+.para{
+    color: white;
+    margin-top: -250px;
+    margin-left: 590px;
+
+}
+.second-para{
+    margin-left: 40px;
+}
+
