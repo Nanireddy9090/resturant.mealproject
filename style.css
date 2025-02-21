@@ -14,10 +14,10 @@
 }
 
 .search-menu{
-    width: 450px;
+    width: 250px;
     height: 40px;
     border-radius: 25px;
-    margin-left:15px;
+    margin-left:20px;
     margin-top: -90px;
     text-align: center;
     border: none;
@@ -27,7 +27,7 @@
     width: 40px;
     height: 40px;
     border-radius: 25px;
-    margin-left: 15px;
+    margin-left: 5px;
     margin-top: -90px;
     background-color: orangered;
     border: 2px solid white;
@@ -35,10 +35,40 @@
 .para{
     color: white;
     margin-top: -250px;
-    margin-left: 590px;
+    margin-left: 540px;
 
 }
 .second-para{
-    margin-left: 40px;
+    margin-left: 90px;
+}
+#container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;  
+    background-color: white;
+    margin-bottom: 20px;
+    text-align: right;
 }
 
+    /* .productcard {
+        border: 1px solid  rgb(255, 255, 255);
+        border-radius: 2px;
+        background: white;
+        margin-bottom: 30px;
+    } */
+
+.productcard:hover {
+    transform: scale(1.05);
+} 
+
+
+.productcard {
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 8px;
+    text-align: top;
+    background: white;
+    box-shadow: 2px 2px 10px rgba(7, 7, 7, 0.1);
+    transition: transform 0.2s;
+    margin-bottom: 30px;
+}
