@@ -50,12 +50,12 @@
     text-align: right;
 }
 
-    /* .productcard {
+    .productcard {
         border: 1px solid  rgb(255, 255, 255);
         border-radius: 2px;
         background: white;
         margin-bottom: 30px;
-    } */
+    }
 
 .productcard:hover {
     transform: scale(1.05);
@@ -71,4 +71,17 @@
     box-shadow: 2px 2px 10px rgba(7, 7, 7, 0.1);
     transition: transform 0.2s;
     margin-bottom: 30px;
+}
+img {
+    max-width: 100%;
+    display: block;
+}
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.category {
+    width: 150px;
+    text-align: center;
 }
