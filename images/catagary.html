@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Category Details</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="navbar navbar-dark bginfo">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">Meal Finder</a>
+        </div>
+    </header>
+
+    <div class="details-container">
+        <img id="category-image" src="" alt="Category Image">
+        <h2 id="category-title"></h2>
+        <p id="category-description"></p>
+    </div>
+
+    <script>
+        // Get data from URL parameters
+        const params = new URLSearchParams(window.location.search);
+        const title = params.get("title");
+        const image = params.get("image");
+        const description = params.get("description");
+
+        // Insert data into the page
+        document.getElementById("category-title").textContent = title;
+        document.getElementById("category-image").src = image;
+        document.getElementById("category-description").textContent = description;
+    </script>
+</body>
+</html>
